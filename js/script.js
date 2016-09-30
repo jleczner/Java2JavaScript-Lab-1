@@ -2,11 +2,17 @@
 
 var display = document.getElementById("display");
 
-function oneToTen () {
+function oneToTen() {
+	display.innerHTML = "";
 	for (var i = 1; i < 11; i++) {
   		display.innerHTML += i + "<br>";
-
   	}
 }
 
-oneToTen();
+function oddNumbers() {
+	display.innerHTML = "";
+	for (var i = 1; i < 20; i++) {
+  		display.innerHTML += i + "<br>";
+  		i++;
+  	}
+}
