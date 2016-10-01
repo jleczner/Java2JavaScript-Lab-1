@@ -19,7 +19,9 @@ function oddNumbers() {
 
 function squareNumbers() {
 	display.innerHTML = "";
-	for (var i = 1; i <= 100; i++) {
-		display += i * i + "<br>";
+	for (var i = 1; i <= 10; i++) {
+		var temp = i;
+		var square = temp * temp;
+		display.innerHTML += square + "<br>";
 	}
 }
