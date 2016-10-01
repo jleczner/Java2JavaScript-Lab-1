@@ -4,7 +4,7 @@ var display = document.getElementById("display");
 
 function oneToTen() {
 	display.innerHTML = "";
-	for (var i = 1; i < 11; i++) {
+	for (var i = 1; i <= 10; i++) {
   		display.innerHTML += i + "<br>";
   	}
 }
@@ -15,4 +15,11 @@ function oddNumbers() {
   		display.innerHTML += i + "<br>";
   		i++;
   	}
+}
+
+function squareNumbers() {
+	display.innerHTML = "";
+	for (var i = 1; i <= 100; i++) {
+		display += i * i + "<br>";
+	}
 }
