@@ -76,15 +76,25 @@ function tableSquare() {
 	display.innerHTML = "";
 	for (var i = 1; i <= 4; i++) {
 		for (var j = 1; j <= 4; j++) {
-			display.innerHTML += "|" + i * j + "|";
+			display.innerHTML += "|" + i * j;
 		}
-		display.innerHTML += "<br>";
+		display.innerHTML += "|" + "<br>";
 	}
 }
 
-
-
-
+function tableSquares(number) {
+	display.innerHTML = "";
+	for (var i = 1; i <= number; i++) {
+		for (var j = 1; j <= number; j++) {
+			display.innerHTML += "|";
+			if (i * j < 10) {
+				display.innerHTML += "\xa0" + "\xa0";
+			}
+			display.innerHTML += i * j;
+		}
+		display.innerHTML += "|" + "<br>";
+	}
+}
 
 
 
