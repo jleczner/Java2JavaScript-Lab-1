@@ -32,3 +32,13 @@ function random4() {
 		display.innerHTML += Math.floor(Math.random() * 100) + 1 + "<br>";
 	}
 }
+
+function even(number) {
+	display.innerHTML = "";
+	for (var i = 2; i < number; i+=2) {
+		display.innerHTML += i + "<br>";
+	}
+}
+
+
+
