@@ -49,3 +49,26 @@ function powers(number) {
 	}
 }
 
+function areWeThereYet() {
+	var areWe = false;
+	while (!areWe) {
+		var input = prompt("Arewethereyet?");
+		if (input == "Yes") {
+			alert("Good!");
+			areWe = true;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
