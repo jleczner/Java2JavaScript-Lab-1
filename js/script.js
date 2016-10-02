@@ -72,7 +72,15 @@ function triangle() {
 	}
 }
 
-
+function tableSquare() {
+	display.innerHTML = "";
+	for (var i = 1; i <= 4; i++) {
+		for (var j = 1; j <= 4; j++) {
+			display.innerHTML += "|" + i * j + "|";
+		}
+		display.innerHTML += "<br>";
+	}
+}
 
 
 
