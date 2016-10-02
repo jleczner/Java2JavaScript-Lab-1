@@ -40,5 +40,12 @@ function even(number) {
 	}
 }
 
-
+function powers(number) {
+	display.innerHTML = "";
+	var twoMultiple = 2;
+	for (var i = 1; i <= number; i++) {
+		display.innerHTML += twoMultiple + "<br>";
+		twoMultiple *= 2;
+	}
+}
 
