@@ -60,7 +60,17 @@ function areWeThereYet() {
 	}
 }
 
-
+function triangle() {
+	display.innerHTML = "";
+	var stars = "";
+	while (stars.length < 5) {
+		for (i = 0; i < 2; i++) {
+			stars += "*";
+			display.innerHTML += stars + "<br>";
+			break;
+		}
+	}
+}
 
 
 
