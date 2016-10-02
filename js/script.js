@@ -25,3 +25,10 @@ function squareNumbers() {
 		display.innerHTML += square + "<br>";
 	}
 }
+
+function random4() {
+	display.innerHTML = "";
+	for (var i = 0; i < 4; i++) {
+		display.innerHTML += Math.floor(Math.random() * 100) + 1 + "<br>";
+	}
+}
